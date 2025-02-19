@@ -1,3 +1,6 @@
+// Q 1 . Accept minimum and maximum value from user
+//- Print Only Palindrome Numbers
+
 #include<stdio.h>
 
 int main() {
