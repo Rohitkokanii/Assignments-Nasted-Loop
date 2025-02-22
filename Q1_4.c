@@ -18,13 +18,17 @@ int main() {
 		}
 		for (int j = 2; j < num; j++) {
 			if (num % j == 0) {
-				isPrime = 0;
+				//isPrime = 0;
 				break;
 			}
+			else {
+				printf("\nPrime No. = %d \n", num);
+			}
+		
 		}
-		if (isPrime) {
+		/*if (isPrime) {
 			printf("\nPrime No. = %d \n", num);
-		}	
+		}*/	
 	}
 
 	return 0;
